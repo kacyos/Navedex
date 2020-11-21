@@ -1,0 +1,28 @@
+.modal-overlay {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  background-color: #fff;
+  width: 1007px;
+  height: 503px;
+  margin: 109px auto;
+}
+
+.close {
+  display: block;
+  float: right;
+  background: unset;
+  border: unset;
+  margin-top: 21px;
+  margin-right: 21px;
+}
+
+
+

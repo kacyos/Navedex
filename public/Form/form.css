@@ -1,0 +1,62 @@
+.container {
+  max-width: 624px;
+  margin: 0 auto;
+}
+
+.edit {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 16px;
+  width: 180px;
+}
+
+.back {
+  width: 11.67px;
+  height: 19.8px;
+  margin-right: 22.49px;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 16px;
+  float: left;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 32px;
+}
+
+input {
+  width: 280px;
+  height: 40px;
+  padding: 8px;
+}
+
+.div-button {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  float: right;
+}
+
+button {
+  width: 176px;
+  height: 40px;
+  margin-top: 32px;
+  margin-right: 16px;
+  color: #fff;
+  font-size: 14px;
+  border: 0;
+}
+
+@media only screen and (max-device-width: 624px) {
+  .div-button {
+    justify-content: left;
+  }
+}

@@ -1,0 +1,49 @@
+.modal-overlay {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-delete {
+  background-color: #fff;
+  width: 592px;
+  height: 233px;
+  margin: 244px auto;
+}
+
+.modal-delete h2 {
+  margin-top: 32px;
+  margin-left: 32px;
+  line-height: 36px;
+  font-size: 24px;
+}
+
+.modal-delete p {
+  margin-top: 24px;
+  margin-left: 32px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.cancel,
+.delete {
+  height: 40px;
+  width: 176px;
+  font-size: 14px;
+  border: 1px solid #212121;
+  outline-color: none;
+}
+.cancel {
+  margin-top: 33px;
+  margin-left: 184px;
+  background-color: transparent;
+  color: #212121;
+}
+
+.delete {
+  color: #FFF;
+  margin-left: 24px;
+}

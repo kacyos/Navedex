@@ -1,0 +1,41 @@
+.modal-overlay {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-feedback {
+  background-color: #fff;
+  width: 592px;
+  height: 160px;
+  margin: 265px auto;
+}
+
+.close {
+  display: block;
+  float: right;
+  background: unset;
+  border: unset;
+  margin-top: 21px;
+  margin-right: 21px;
+}
+
+.modal-feedback h2 {
+  margin-top: 32px;
+  margin-left: 32px;
+  line-height: 36px;
+  font-size: 24px;
+}
+
+.modal-feedback p {
+  margin-top: 24px;
+  margin-left: 32px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+

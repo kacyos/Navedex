@@ -1,0 +1,21 @@
+.headerNave {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.headerNave img {
+  width: 145.12px;
+  height: 37px;
+  margin: 24px 0 24px 32px;
+}
+
+.headerNave button {
+  width: 28px;
+  height: 24px;
+  margin: 30px 32px 0 0;
+  font-size: 14px;
+  color: #000;
+  background-color: transparent;
+  border: none;
+}
